@@ -1,0 +1,275 @@
+/* Algemene styling in de grid-container en per grid-item */
+.grid-container{
+  padding-top: 20px;
+  display: grid;
+
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas:
+  "welkomTekst welkomTekst welkomTekst"
+  "model model model"
+  "kleur1 kleur1 kleur2"
+  "kleur1 kleur1 kleur3"
+}
+
+                                              /* Styling van de grid-boxes (bij mobiele weergave) */
+                                              .box1{
+                                                grid-area: welkomTekst;
+                                                background-color: dodgerblue;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                              }
+
+                                              .box2{
+                                                grid-area: kleur1;
+                                                background-color: violet;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                              }
+
+                                              .box3{
+                                                grid-area: model;
+                                                background-color: tomato;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                                padding: 0;
+                                                overflow: hidden;
+                                              }
+
+                                              .box4{
+                                                grid-area: kleur2;
+                                                background-color: lime;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+
+                                              }
+
+                                              .box5{
+                                                grid-area: kleur3;
+                                                background-color: pink;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                              }
+
+    h1{
+      font-size: 5vw;
+    }
+
+    p{
+      font-size: 1em;
+    }
+
+    .box3{
+      height: 300px;
+    }
+
+
+
+
+
+/* Kleine tablet staand */
+@media only screen and (min-width: 599px) and (max-width: 767px){
+	.grid-container{
+    padding-top: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 80%;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "welkomTekst welkomTekst welkomTekst welkomTekst"
+    "kleur1 kleur1 model model"
+    "kleur2 kleur2 kleur3 kleur3"
+	}
+
+  h1{
+    font-size: 3.5vw;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  .box3{
+    height: 300px;
+  }
+
+
+}
+
+/* Grote tablet staand */
+@media only screen and (min-width: 768px) and (max-width: 949px){
+	.grid-container{
+    padding-top: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 80%;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "welkomTekst welkomTekst welkomTekst welkomTekst"
+    "kleur1 kleur1 kleur1 model"
+    "kleur2 kleur2 kleur3 kleur3"
+	}
+
+  h1{
+    font-size: 3vw;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  /* .box3{
+    height: 300px;
+  } */
+
+
+}
+
+
+/* Tablet liggend */
+@media only screen and (min-width: 950px) and (max-width: 1299px){
+	.grid-container{
+    padding-top: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr;
+
+    width: 80%;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "welkomTekst welkomTekst"
+    "kleur1 model"
+    "kleur2 kleur3"
+	}
+
+  h1{
+    font-size: 3vw;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  /* .box3{
+    height: 300px;
+  } */
+
+
+}
+
+
+/* Kleine esktop */
+@media only screen and (min-width: 1300px)  and (max-width: 1919px){
+	.grid-container{
+    padding-top: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    grid-template-columns: 20% 60% 20%;
+
+    width: 78%;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "welkomTekst welkomTekst welkomTekst"
+    "kleur1 model kleur2"
+    "kleur3 kleur3 kleur3"
+	}
+
+  h1{
+    font-size: 2vw;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  .box3{
+    height: 300px;
+  }
+
+  #iframeAanpassen{
+    zoom: 1;
+  }
+
+  #iframeAanpassen{
+    /* zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0; */
+
+    /* -webkit-transform: scale(1);
+     transform: scale(1);
+     width: 100px;
+     height: 100px;
+     overflow: hidden; */
+     -ms-zoom: 0.7; -moz-transform: scale(0.7); -moz-transform-origin: 0px 0; -o-transform: scale(0.7); -o-transform-origin: 0 0; -webkit-transform: scale(0.7); -webkit-transform-origin: 0 0; }
+  }
+
+
+}
+
+
+/* Grote desktop*/
+@media only screen and (min-width: 1920px){
+	.grid-container{
+    padding-top: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+
+    grid-template-columns: 20% 60% 20%;
+
+    width: 78%;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "welkomTekst welkomTekst welkomTekst"
+    "kleur1 model kleur2"
+    "kleur3 kleur3 kleur3"
+	}
+
+  h1{
+    font-size: 2vw;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  /* .box3{
+    height: 400px;
+  } */
+
+
+}

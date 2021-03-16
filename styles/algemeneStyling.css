@@ -1,0 +1,22 @@
+/* Fonts */
+@import url("https://use.typekit.net/zkx6vyo.css");
+
+/* Algemene styling van de pagina */
+body{
+  background-color: white;
+}
+
+h1, p{
+  font-family: poppins, sans-serif;
+  font-style: normal;
+}
+
+#iframeAanpassen{
+  border-radius: 20px;
+}
+
+model-viewer{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}

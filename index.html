@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web 3D test 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="styles/algemeneStyling.css" rel="stylesheet" />
+    <link type="text/css" href="styles/gridStyling.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="afbeeldingen/Lego 3D favicon 1.png" />
+    <script type="text/javascript" src="scripts/script Web-3D 3.js" defer></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+
+  <body>
+    <main>
+
+      <div class="grid-container">
+
+        <!--  Styling in box1, de box met tekst. -->
+        <section class="grid-item box1">
+          <h1>Geniet van dit mooie 3D model!</h1>
+        </section>
+
+        <!--  Styling in box2, een box met een kleur. -->
+        <section class="grid-item box2">
+          <p>3D is gaaf</p>
+        </section>
+
+        <!--  Styling in box3, de box met het 3D-model. -->
+        <section class="grid-item box3">
+          <model-viewer src="afbeeldingen/Auto groen 1 - auto + verlichting 4.glb" ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls skybox-image="afbeeldingen/snelweg1.jpg" alt="Dit is een 3D-model van een auto. Zie je deze niet? Open deze webpagina dan in Google Chrome." auto-rotate camera-controls></model-viewer>
+        </section>
+
+        <!--  Styling in box4, een box met een kleur. -->
+        <section class="grid-item box4">
+          <p>Gaaf man</p>
+        </section>
+
+        <!--  Styling in box5, een box met een kleur. -->
+        <section class="grid-item box5">
+          <p>Keigaaf</p>
+        </section>
+
+      </div>
+
+    </main>
+  </body>
+
+</html>
