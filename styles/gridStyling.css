@@ -198,9 +198,17 @@
       margin-bottom: 20px;
     }
 
-    .box2a, .box2b{
+    .box2a, .box2b, .box3a, .box6a, .box9a{
       height: 400px;
     }
+
+    .box3b,{
+      height: 200px;
+    }
+
+    .box4a, .box5b, .box7a, .box8a{
+       height: 300px;
+     }
 
 
 
