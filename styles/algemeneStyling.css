@@ -6,9 +6,14 @@ body{
   background-color: white;
 }
 
-h1, p{
+h1{
+  font-family: myriad-pro, sans-serif;
+  font-style: Semibold;
+}
+
+p{
   font-family: poppins, sans-serif;
-  font-style: normal;
+  font-weight: 500;
 }
 
 #iframeAanpassen{
