@@ -27,7 +27,7 @@
                                               /* Styling van de grid-boxes (bij mobiele weergave) */
                                               .box1{
                                                 grid-area: welkomTekst;
-                                                background-color: dodgerblue;
+                                                background-color: #007bfd;
                                                 border-radius: 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -35,12 +35,13 @@
 
                                               .box2a{
                                                 grid-area: scooterModel;
-                                                background-color: violet;
                                                 border-radius: 20px 0px 0px 20px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(14,252,153);
+                                                background: radial-gradient(circle, rgba(14,252,153,1) 0%, rgba(0,123,253,1) 100%);
                                               }
 
                                               .box2b{
@@ -49,17 +50,17 @@
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
-
                                               }
 
                                               .box3a{
                                                 grid-area: rodeAutoModel;
-                                                background-color: lime;
                                                 border-radius: 20px 20px 0px 0px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(251,182,55);
+                                                background: linear-gradient(0deg, rgba(251,182,55,1) 0%, rgba(14,252,153,1) 100%);
                                               }
 
                                               .box3b{
@@ -72,12 +73,13 @@
 
                                               .box4a{
                                                 grid-area: groeneAutoModel;
-                                                background-color: lime;
                                                 border-radius: 20px 0px 0px 20px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(238,7,137);
+                                                background: linear-gradient(0deg, rgba(238,7,137,1) 0%, rgba(251,182,55,1) 100%);
                                               }
 
                                               .box4b{
@@ -116,12 +118,13 @@
 
                                               .box6b{
                                                 grid-area: macModel;
-                                                background-color: lime;
                                                 border-radius: 20px 0px 0px 20px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(151,66,115);
+                                                background: linear-gradient(0deg, rgba(151,66,115,1) 0%, rgba(254,111,132,1) 100%);
                                               }
 
                                               .box7a{
@@ -144,12 +147,13 @@
 
                                               .box8a{
                                                 grid-area: smartphonePlaneModel;
-                                                background-color: lime;
                                                 border-radius: 20px 20px 0px 0px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(63,94,251);
+                                                background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
                                               }
 
                                               .box8b{
@@ -162,12 +166,13 @@
 
                                               .box9a{
                                                 grid-area: ipadSmartphoneModel;
-                                                background-color: lime;
                                                 border-radius: 20px 20px 0px 0px;
                                                 display: flex;
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
+                                                background: rgb(31,210,253);
+                                                background: radial-gradient(circle, rgba(31,210,253,1) 0%, rgba(133,84,253,1) 100%);
                                               }
 
                                               .box9b{
