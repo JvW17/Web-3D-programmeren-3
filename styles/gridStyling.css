@@ -17,10 +17,10 @@
   "macModel macModel macOmschrijving"
   "laptopModel laptopModel laptopModel"
   "laptopOmschrijving laptopOmschrijving laptopOmschrijving"
-  "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-  "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
   "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
   "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+  "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+  "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
   "footer footer footer"
 }
 
@@ -143,24 +143,6 @@
                                               }
 
                                               .box8a{
-                                                grid-area: ipadSmartphoneModel;
-                                                background-color: lime;
-                                                border-radius: 20px 20px 0px 0px;
-                                                display: flex;
-                                                justify-content: center;
-                                                padding: 0;
-                                                overflow: hidden;
-                                              }
-
-                                              .box8b{
-                                                grid-area: ipadSmartphoneOmschrijving;
-                                                background-color: pink;
-                                                border-radius: 0px 0px 20px 20px;
-                                                display: flex;
-                                                justify-content: center;
-                                              }
-
-                                              .box9a{
                                                 grid-area: smartphonePlaneModel;
                                                 background-color: lime;
                                                 border-radius: 20px 20px 0px 0px;
@@ -170,8 +152,26 @@
                                                 overflow: hidden;
                                               }
 
-                                              .box9b{
+                                              .box8b{
                                                 grid-area: smartphonePlaneOmschrijving;
+                                                background-color: pink;
+                                                border-radius: 0px 0px 20px 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                              }
+
+                                              .box9a{
+                                                grid-area: ipadSmartphoneModel;
+                                                background-color: lime;
+                                                border-radius: 20px 20px 0px 0px;
+                                                display: flex;
+                                                justify-content: center;
+                                                padding: 0;
+                                                overflow: hidden;
+                                              }
+
+                                              .box9b{
+                                                grid-area: ipadSmartphoneOmschrijving;
                                                 background-color: pink;
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
@@ -238,10 +238,10 @@
     "macModel macModel macOmschrijving"
     "laptopModel laptopModel laptopModel"
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving"
-    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
     "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "footer footer footer"
 	}
 
@@ -280,10 +280,10 @@
     "rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving"
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
     "macModel macModel macModel macModel macOmschrijving macOmschrijving"
-    "laptopModel laptopModel laptopModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-    "laptopOmschrijving laptopOmschrijving laptopOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
-    "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
-    "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "laptopModel laptopModel laptopModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
+    "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "footer footer footer footer footer footer"
 	}
 
@@ -332,9 +332,9 @@
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
     "macModel macModel macModel macModel macOmschrijving macOmschrijving"
     "laptopModel laptopModel laptopModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-    "laptopOmschrijving laptopOmschrijving laptopOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
-    "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
-    "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "footer footer footer footer footer footer"
 	}
 
@@ -378,9 +378,9 @@
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
     "macModel macModel macModel macModel macOmschrijving macOmschrijving"
     "laptopModel laptopModel laptopModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-    "laptopOmschrijving laptopOmschrijving laptopOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
-    "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
-    "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "footer footer footer footer footer footer"
 	}
 
@@ -429,9 +429,9 @@
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
     "macModel macModel macModel macModel macOmschrijving macOmschrijving"
     "laptopModel laptopModel laptopModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
-    "laptopOmschrijving laptopOmschrijving laptopOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
-    "smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
-    "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
+    "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
+    "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
     "footer footer footer footer footer footer"
 	}
 
