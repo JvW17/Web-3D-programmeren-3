@@ -50,6 +50,7 @@
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
+                                                flex-flow: column;
                                               }
 
                                               .box3a{
@@ -96,6 +97,7 @@
                                                 border-radius: 20px 0px 0px 20px;
                                                 display: flex;
                                                 justify-content: center;
+                                                flex-flow: column;
                                               }
 
                                               .box5b{
@@ -114,6 +116,7 @@
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
+                                                flex-flow: column;
                                               }
 
                                               .box6b{
@@ -195,16 +198,25 @@
       font-size: 5vw;
     }
 
+    h2{
+
+    }
+
     p{
       font-size: 1em;
     }
 
+    /* Margins om ruimtes tussen de onderstaande boxen te creëren */
     .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b{
       margin-bottom: 20px;
     }
 
-    .box2a, .box2b, .box3a, .box6a, .box9a{
-      height: 400px;
+    .box2a, .box2b{
+      height: 500px;
+    }
+
+    .box3a, .box9a{
+      height: 450px;
     }
 
     .box3b,{
@@ -212,7 +224,12 @@
     }
 
     .box4a, .box5b, .box7a, .box8a{
-       height: 300px;
+       height: 350px;
+     }
+
+     /* Paddings om de tekst in de boxen mooi uit te lijnen */
+     article{
+       margin: 30px 20px 20px 30px;
      }
 
 
@@ -250,6 +267,11 @@
     "footer footer footer"
 	}
 
+  /* Paddings om de tekst in de boxen mooi uit te lijnen */
+  article{
+    margin: 20px 30px 20px 30px;
+  }
+
   h1{
     font-size: 3.5vw;
   }
@@ -280,7 +302,7 @@
 
     grid-template-areas:
     "welkomTekst welkomTekst welkomTekst welkomTekst welkomTekst welkomTekst"
-    "scooterModel scooterModel scooterModel scooterModel scooterOmschrijving scooterOmschrijving"
+    "scooterModel scooterModel scooterModel scooterOmschrijving scooterOmschrijving scooterOmschrijving"
     "rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel"
     "rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving"
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
@@ -292,12 +314,22 @@
     "footer footer footer footer footer footer"
 	}
 
+  /* Margins om ruimtes tussen de onderstaande boxen te creëren */
   .box4b, .box7a, .box7b{
     margin-right: 10px;
   }
 
   .box5a, .box8a, .box8b{
     margin-left: 10px;
+  }
+
+  .box4a, .box4b, .box5a, .box5b{
+    height: 450px;
+  }
+
+  /* Paddings om de tekst in de boxen mooi uit te lijnen */
+  article{
+    margin: 20px 30px 20px 30px;
   }
 
   h1{
@@ -331,11 +363,11 @@
 
     grid-template-areas:
     "welkomTekst welkomTekst welkomTekst welkomTekst welkomTekst welkomTekst"
-    "scooterModel scooterModel scooterModel scooterModel scooterOmschrijving scooterOmschrijving"
+    "scooterModel scooterModel scooterModel scooterOmschrijving scooterOmschrijving scooterOmschrijving"
     "rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel rodeAutoModel"
     "rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving rodeAutoOmschrijving"
     "groeneAutoModel groeneAutoModel groeneAutoOmschrijving donutOmschrijving donutModel donutModel"
-    "macModel macModel macModel macModel macOmschrijving macOmschrijving"
+    "macModel macModel macModel macOmschrijving macOmschrijving macOmschrijving"
     "laptopModel laptopModel laptopModel smartphonePlaneModel smartphonePlaneModel smartphonePlaneModel"
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
@@ -343,12 +375,22 @@
     "footer footer footer footer footer footer"
 	}
 
+  /* Margins om ruimtes tussen de onderstaande boxen te creëren */
   .box4b, .box7a, .box7b{
     margin-right: 10px;
   }
 
   .box5a, .box8a, .box8b{
     margin-left: 10px;
+  }
+
+  .box4a, .box4b, .box5a, .box5b{
+    height: 450px;
+  }
+
+  /* Paddings om de tekst in de boxen mooi uit te lijnen */
+  article{
+    margin: 20px 30px 20px 30px;
   }
 
   h1{
@@ -389,12 +431,26 @@
     "footer footer footer footer footer footer"
 	}
 
+  /* Margins om ruimtes tussen de onderstaande boxen te creëren */
+  .box2a, .box2b, .box6a, .box6b {
+    height: 400px;
+  }
+
+  .box4a, .box4b, .box5a, .box5b{
+    height: 450px;
+  }
+
   .box4b, .box7a, .box7b{
     margin-right: 10px;
   }
 
   .box5a, .box8a, .box8b{
     margin-left: 10px;
+  }
+
+  /* Paddings om de tekst in de boxen mooi uit te lijnen */
+  article{
+    margin: 20px 30px 20px 30px;
   }
 
   h1{
@@ -440,12 +496,18 @@
     "footer footer footer footer footer footer"
 	}
 
+  /* Margins om ruimtes tussen de onderstaande boxen te creëren */
   .box4b, .box7a, .box7b{
     margin-right: 10px;
   }
 
   .box5a, .box8a, .box8b{
     margin-left: 10px;
+  }
+
+  /* Paddings om de tekst in de boxen mooi uit te lijnen */
+  article{
+    margin: 20px 30px 20px 30px;
   }
 
   h1{
