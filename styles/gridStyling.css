@@ -41,12 +41,12 @@
                                                 padding: 0;
                                                 overflow: hidden;
                                                 background: rgb(14,252,153);
-                                                background: radial-gradient(circle, rgba(14,252,153,1) 0%, rgba(0,123,253,1) 100%);
+                                                background: linear-gradient(90deg, rgba(14,252,153,1) 0%, rgba(0,123,253,1) 100%);
                                               }
 
                                               .box2b{
                                                 grid-area: scooterOmschrijving;
-                                                background-color: #0489F3;
+                                                background-color: #007bfd;
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -102,7 +102,7 @@
 
                                               .box5b{
                                                 grid-area: donutModel;
-                                                background-color: lime;
+                                                background-color: #FBB637;
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -142,7 +142,7 @@
 
                                               .box7b{
                                                 grid-area: laptopOmschrijving;
-                                                background-color: pink;
+                                                background-color: #D7D7D7;
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -174,8 +174,8 @@
                                                 justify-content: center;
                                                 padding: 0;
                                                 overflow: hidden;
-                                                background: rgb(31,210,253);
-                                                background: radial-gradient(circle, rgba(31,210,253,1) 0%, rgba(133,84,253,1) 100%);
+                                                background: rgb(133,84,253);
+                                                background: linear-gradient(0deg, rgba(133,84,253,1) 0%, rgba(31,210,253,1) 100%);
                                               }
 
                                               .box9b{
@@ -183,13 +183,12 @@
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
-                                                background: rgb(31,210,253);
-                                                background: radial-gradient(circle, rgba(31,210,253,1) 0%, rgba(133,84,253,1) 100%);
+                                                background-color: #8554fd;
                                               }
 
                                               .box10{
                                                 grid-area: footer;
-                                                background-color: pink;
+                                                background-color: #8554fd;
                                                 border-radius: 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -224,7 +223,7 @@
       height: 200px;
     }
 
-    .box4a, .box5b, .box7a, .box8a{
+    .box5b, .box7a, .box8a{
        height: 350px;
      }
 
