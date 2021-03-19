@@ -20,6 +20,16 @@ p{
   font-weight: 400;
 }
 
+a{
+  color: black;
+}
+
+a:hover, a:visited{
+  color: white;
+}
+
+
+
 #iframeAanpassen{
   border-radius: 20px;
 }
