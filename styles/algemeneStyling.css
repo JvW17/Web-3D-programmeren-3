@@ -25,3 +25,17 @@ model-viewer{
   height: 100%;
   margin: 0 auto;
 }
+
+#knipperendeLetters.deLettersKnipperenNu{
+  animation: 1s deLettersKnipperenNu infinite alternate ease-in-out;
+}
+
+/* Bijbehorende keyframes */
+  @keyframes deLettersKnipperenNu{
+    0%{
+      color: white;
+    }
+    100%{
+      color: black;
+    }
+  }
