@@ -20,11 +20,11 @@ p{
   font-weight: 400;
 }
 
-a{
+a, a:visited{
   color: black;
 }
 
-a:hover, a:visited{
+a:hover{
   color: white;
 }
 
