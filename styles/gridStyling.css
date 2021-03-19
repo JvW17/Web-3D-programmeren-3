@@ -1,11 +1,13 @@
 /* Algemene styling in de grid-container en per grid-item */
 .grid-container{
-  padding-top: 20px;
   display: grid;
 
   grid-template-rows: 1fr;
 
   grid-template-columns: 1fr 1fr 1fr;
+
+  width: 95%;
+  margin: 0 auto;
 
   grid-template-areas:
   "welkomTekst welkomTekst welkomTekst"
@@ -28,7 +30,7 @@
                                               .box1{
                                                 grid-area: welkomTekst;
                                                 background-color: #007bfd;
-                                                border-radius: 20px;
+                                                border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
                                               }
@@ -188,14 +190,14 @@
 
                                               .box10{
                                                 grid-area: footer;
-                                                background-color: #8554fd;
-                                                border-radius: 20px;
+                                                background-color: #FF6F85;
+                                                border-radius: 20px 20px 0px 0px;
                                                 display: flex;
                                                 justify-content: center;
                                               }
 
     h1{
-      font-size: 5vw;
+      font-size: 8vw;
     }
 
     h2{
@@ -212,7 +214,7 @@
     }
 
     .box2a, .box2b{
-      height: 500px;
+      height: 400px;
     }
 
     .box3a, .box9a{
@@ -233,14 +235,9 @@
      }
 
 
-
-
-
-
 /* Kleine tablet staand */
 @media only screen and (min-width: 599px) and (max-width: 767px){
 	.grid-container{
-    padding-top: 20px;
     display: grid;
 
     grid-template-rows: 1fr;
@@ -273,15 +270,19 @@
   }
 
   h1{
-    font-size: 3.5vw;
+    font-size: 6vw;
   }
 
   p{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .box3{
     height: 300px;
+  }
+
+  .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b{
+    margin-bottom: 30px;
   }
 
 
@@ -290,7 +291,6 @@
 /* Grote tablet staand */
 @media only screen and (min-width: 768px) and (max-width: 949px){
 	.grid-container{
-    padding-top: 20px;
     display: grid;
 
     grid-template-rows: 1fr;
@@ -333,16 +333,12 @@
   }
 
   h1{
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   p{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
-
-  /* .box3{
-    height: 300px;
-  } */
 
 
 }
@@ -351,7 +347,6 @@
 /* Tablet liggend */
 @media only screen and (min-width: 950px) and (max-width: 1299px){
 	.grid-container{
-    padding-top: 20px;
     display: grid;
 
     grid-template-rows: 1fr;
@@ -394,7 +389,7 @@
   }
 
   h1{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   p{
@@ -407,7 +402,6 @@
 /* Kleine esktop */
 @media only screen and (min-width: 1300px) and (max-width: 1919px){
 	.grid-container{
-    padding-top: 20px;
     display: grid;
 
     grid-template-rows: 1fr;
@@ -448,13 +442,17 @@
     margin-left: 10px;
   }
 
+  .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b{
+    margin-bottom: 40px;
+  }
+
   /* Paddings om de tekst in de boxen mooi uit te lijnen */
   article{
     margin: 20px 30px 20px 30px;
   }
 
   h1{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   p{
@@ -472,7 +470,6 @@
 /* Grote desktop*/
 @media only screen and (min-width: 1920px){
   .grid-container{
-    padding-top: 20px;
     display: grid;
 
     grid-template-rows: 1fr;
@@ -511,7 +508,7 @@
   }
 
   h1{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   p{
