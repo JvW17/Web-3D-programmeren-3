@@ -46,7 +46,7 @@
 
                                               .box2b{
                                                 grid-area: scooterOmschrijving;
-                                                background-color: tomato;
+                                                background-color: #0489F3;
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -66,7 +66,7 @@
 
                                               .box3b{
                                                 grid-area: rodeAutoOmschrijving;
-                                                background-color: pink;
+                                                background-color: #FBB738;
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -80,12 +80,12 @@
                                                 padding: 0;
                                                 overflow: hidden;
                                                 background: rgb(238,7,137);
-                                                background: linear-gradient(0deg, rgba(238,7,137,1) 0%, rgba(251,182,55,1) 100%);
+                                                background: linear-gradient(90deg, rgba(238,7,137,1) 0%, rgba(251,182,55,1) 100%);
                                               }
 
                                               .box4b{
                                                 grid-area: groeneAutoOmschrijving;
-                                                background-color: pink;
+                                                background-color: #FBB637;
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -93,7 +93,7 @@
 
                                               .box5a{
                                                 grid-area: donutOmschrijving;
-                                                background-color: pink;
+                                                background-color: #FBB637;
                                                 border-radius: 20px 0px 0px 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -112,7 +112,7 @@
 
                                               .box6a{
                                                 grid-area: macOmschrijving;
-                                                background-color: pink;
+                                                background-color: #FF6F85;
                                                 border-radius: 0px 20px 20px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -127,12 +127,12 @@
                                                 padding: 0;
                                                 overflow: hidden;
                                                 background: rgb(151,66,115);
-                                                background: linear-gradient(0deg, rgba(151,66,115,1) 0%, rgba(254,111,132,1) 100%);
+                                                background: linear-gradient(90deg, rgba(151,66,115,1) 0%, rgba(254,111,132,1) 100%);
                                               }
 
                                               .box7a{
                                                 grid-area: laptopModel;
-                                                background-color: lime;
+                                                background-color: #D7D7D7;
                                                 border-radius: 20px 20px 0px 0px;
                                                 display: flex;
                                                 justify-content: center;
@@ -156,12 +156,12 @@
                                                 padding: 0;
                                                 overflow: hidden;
                                                 background: rgb(63,94,251);
-                                                background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+                                                background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
                                               }
 
                                               .box8b{
                                                 grid-area: smartphonePlaneOmschrijving;
-                                                background-color: pink;
+                                                background-color: #405FFB;
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
@@ -180,10 +180,11 @@
 
                                               .box9b{
                                                 grid-area: ipadSmartphoneOmschrijving;
-                                                background-color: pink;
                                                 border-radius: 0px 0px 20px 20px;
                                                 display: flex;
                                                 justify-content: center;
+                                                background: rgb(31,210,253);
+                                                background: radial-gradient(circle, rgba(31,210,253,1) 0%, rgba(133,84,253,1) 100%);
                                               }
 
                                               .box10{
