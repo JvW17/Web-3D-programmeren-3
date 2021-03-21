@@ -23,6 +23,7 @@
   "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
   "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
   "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+  "splineModellen splineModellen splineModellen"
   "footer footer footer"
 }
 
@@ -188,6 +189,14 @@
                                                 background-color: #8554fd;
                                               }
 
+                                              .box9c{
+                                                grid-area: splineModellen;
+                                                border-radius: 20px;
+                                                display: flex;
+                                                justify-content: center;
+                                                background-color: red;
+                                              }
+
                                               .box10{
                                                 grid-area: footer;
                                                 background-color: #FF6F85;
@@ -197,7 +206,7 @@
                                               }
 
     h1{
-      font-size: 6vw;
+      font-size: 8vw;
     }
 
     h2{
@@ -209,7 +218,7 @@
     }
 
     /* Margins om ruimtes tussen de onderstaande boxen te creëren */
-    .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b{
+    .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b, .box9c{
       margin-bottom: 20px;
     }
 
@@ -261,6 +270,7 @@
     "smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
     "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+    "splineModellen splineModellen splineModellen"
     "footer footer footer"
 	}
 
@@ -311,6 +321,7 @@
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
     "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+    "splineModellen splineModellen splineModellen splineModellen splineModellen splineModellen"
     "footer footer footer footer footer footer"
 	}
 
@@ -367,6 +378,7 @@
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
     "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+    "splineModellen splineModellen splineModellen splineModellen splineModellen splineModellen"
     "footer footer footer footer footer footer"
 	}
 
@@ -422,6 +434,7 @@
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
     "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+    "splineModellen splineModellen splineModellen splineModellen splineModellen splineModellen"
     "footer footer footer footer footer footer"
 	}
 
@@ -490,6 +503,7 @@
     "laptopOmschrijving laptopOmschrijving laptopOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving smartphonePlaneOmschrijving"
     "ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel ipadSmartphoneModel"
     "ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving ipadSmartphoneOmschrijving"
+    "splineModellen splineModellen splineModellen splineModellen splineModellen splineModellen"
     "footer footer footer footer footer footer"
 	}
 
