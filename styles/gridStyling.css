@@ -194,7 +194,8 @@
                                                 border-radius: 20px;
                                                 display: flex;
                                                 justify-content: center;
-                                                background-color: red;
+                                                background: rgb(255,111,133);
+                                                background: linear-gradient(0deg, rgba(255,111,133,1) 0%, rgba(133,84,253,1) 100%);
                                               }
 
                                               .box10{
@@ -234,7 +235,7 @@
       height: 200px;
     }
 
-    .box5b, .box7a, .box8a, .box9c{
+    .box5b, .box7a, .box8a{
        height: 350px;
      }
 
@@ -455,7 +456,7 @@
     margin-left: 10px;
   }
 
-  .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b{
+  .box1, .box2a, .box2b, .box3b, .box4a, .box4b, .box5a, .box5b, .box6a, .box6b, .box7b, .box8b, .box9b, .box9c{
     margin-bottom: 40px;
   }
 
